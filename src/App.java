@@ -474,6 +474,9 @@ public class App {
             }else if(modoJogo == 2){
                 System.out.println("Player 1: " + contadorPoints[0]);
                 System.out.println("Máquina amigável: " + contadorPoints[2]);
+            }else if(modoJogo == 3){
+                System.out.println("Player 1: " + contadorPoints[0]);
+                System.out.println("Máquina Inteligente: " + contadorPoints[3]);
             }
         } else if (permitionAddPoint2 == 1) {
             contadorPoints[1] = contadorPoints[1] + 1;
